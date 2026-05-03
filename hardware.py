@@ -23,7 +23,7 @@ def setup_sta():
     """Configures the ESP32 to connect to your home Wi-Fi"""
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
-    wlan.connect('CharviA', 'ageu6718')
+    wlan.connect('Nahh', 'shravan0512')
     
     print("Connecting to Wi-Fi...")
     while not wlan.isconnected():
